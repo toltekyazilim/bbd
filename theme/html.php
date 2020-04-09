@@ -5,10 +5,18 @@
 <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link href="//gcdn.org/radix/radix.css" rel="stylesheet">
-<link href="//gcdn.org/font-awesome/4.0.3/font-awesome.css" rel="stylesheet" type="text/css">
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 <link href="<?php echo radix::link('/bbd.css'); ?>" rel="stylesheet" type="text/css">
-<script src="http://gcdn.org/zepto/1.0/zepto.js"></script>
-<script src="http://gcdn.org/moment/2.4.0/moment.js"></script>
+<?php
+#<link href="//gcdn.org/radix/radix.css" rel="stylesheet">
+#<link href="//gcdn.org/font-awesome/4.0.3/font-awesome.css" rel="stylesheet" type="text/css">
+#<script src="http://gcdn.org/moment/2.4.0/moment.js"></script>
+#<script src="http://gcdn.org/zepto/1.0/zepto.js"></script>
+?>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/zepto/1.0.0/zepto.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.4.0/langs.min.js"></script>
+
 <script src="<?php echo radix::link('/bbd.js'); ?>"></script>
 <script>
 bbd.host = '<?=radix::$host;?>';
