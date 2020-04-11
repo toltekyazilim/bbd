@@ -5,7 +5,7 @@
 
 class avconv
 {
-	const CMD = 'nice /opt/edoceo/bbd/ffmpeg-2.3.3-64bit-static/ffmpeg';
+	const CMD = 'nice /opt/toltek/bbd/ffmpeg-2.3.3-64bit-static/ffmpeg';
 
 	/**
 		Generate Silence for Time to File
