@@ -258,8 +258,8 @@ class BBB
 
 		$god_pid = trim(file_get_contents('/var/run/god.pid'));
 		$red_pid = trim(file_get_contents('/var/run/red5.pid'));
-		$rdb_pid = trim(file_get_contents('/var/run/redis.pid'));
-		$tom_pid = trim(file_get_contents('/var/run/tomcat6.pid'));
+		$rdb_pid = trim(file_get_contents('/var/run/redis/redis-server.pid'));
+		$tom_pid = trim(file_get_contents('/var/run/tomcat7.pid'));
 
 		$buf = shell_exec('/bin/ps -e -opid,pcpu,rss,vsz,pmem,time,args');
 		$pat = '/(\d+)\s+([\d\.]+)\s+(\d+)\s+(\d+)\s+(\d+\.\d+)\s+([\d\-\:]+)\s+(.*(ffmpeg|freeswitch|java|libreoffice|nginx|php|redis|ruby).*)$/m';
