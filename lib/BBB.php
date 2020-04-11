@@ -10,7 +10,7 @@ class BBB
 
 	const RAW_AUDIO_SOURCE = '/var/freeswitch/meetings';
 	const RAW_VIDEO_SOURCE = '/usr/share/red5/webapps/video/streams';
-	const RAW_SHARE_SOURCE = '/var/bigbluebutton/deskshare';
+	const RAW_SHARE_SOURCE = '/var/bigbluebutton/screenshare';
 	const RAW_SLIDE_SOURCE = '/var/bigbluebutton'; // :(
 	const RAW_ARCHIVE_PATH = '/var/bigbluebutton/recording/raw';
 
@@ -25,7 +25,7 @@ class BBB
 	const LOG_PATH = '/var/log/bigbluebutton';
 
 	const CONF_BBB = '/usr/local/bigbluebutton/core/scripts/bigbluebutton.yml';
-	const CONF_TOMCAT = '/var/lib/tomcat6/webapps/bigbluebutton/WEB-INF/classes/bigbluebutton.properties';
+	const CONF_TOMCAT = '/usr/share/bbb-web/WEB-INF/classes/bigbluebutton.properties';
 
 	const CONF_FS = '/opt/freeswitch/conf';
 	const CONF_FS_ESL = '/opt/freeswitch/conf/autoload_configs/event_socket.conf.xml';

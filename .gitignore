@@ -1,3 +1,4 @@
 composer.phar
 etc/boot.ini
 vendor/
+/.vs

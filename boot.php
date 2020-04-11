@@ -27,7 +27,7 @@ require_once(APP_ROOT . '/lib/FS.php');
 require_once(APP_ROOT . '/lib/S3.php');
 require_once(APP_ROOT . '/lib/bbd.php');
 require_once(APP_ROOT . '/lib/avconv.php');
-require_once(APP_ROOT . '/vendor/autoload.php');
+//require_once(APP_ROOT . '/vendor/autoload.php');
 
 bbd::init();
 
